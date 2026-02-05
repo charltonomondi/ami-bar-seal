@@ -1,6 +1,5 @@
 import VerificationHero from "@/components/VerificationHero";
 import VerificationCard from "@/components/VerificationCard";
-import TrustSection from "@/components/TrustSection";
 import LocationSection from "@/components/LocationSection";
 import SecurityNotice from "@/components/SecurityNotice";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ const Index = () => {
       <main className="relative z-10 flex-1 flex flex-col max-w-lg mx-auto w-full">
         <VerificationHero />
         <VerificationCard />
-        <TrustSection />
         <LocationSection />
         <SecurityNotice />
         <Footer />
